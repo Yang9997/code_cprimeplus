@@ -8,7 +8,7 @@ int main(void)
     char name[40];
 
     printf("Hi! What is your name?\n");
-    scanf("%s",&name);
+    scanf("%s",name);
     printf("%s, what is your weight in pounds?\n",name);
     scanf("%f",&weight);
     size = sizeof name;
